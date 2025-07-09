@@ -1,0 +1,16 @@
+{
+  "name": "dice-bot-yuri",
+  "version": "1.0.0",
+  "description": "D&D5e用のDiscordダイスボット",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": ["discord", "bot", "dice", "dnd", "d&d"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+} 
