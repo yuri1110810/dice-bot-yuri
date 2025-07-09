@@ -178,6 +178,18 @@ node bot.js
 - 🍴 **Fork**して改造してみてください！
 - 🐦 **SNS**でシェアしてください！
 
+## 🌐 24時間稼働（クラウドデプロイ）
+
+### Render.com（無料）での稼働方法
+
+1. [Render.com](https://render.com)でアカウント作成
+2. 「New Web Service」を選択
+3. このGitHubリポジトリを連携
+4. 環境変数に`DISCORD_TOKEN`を設定
+5. デプロイ完了！
+
+詳細な手順は[Render デプロイガイド](https://render.com/docs/deploy-node-express-app)を参照。
+
 ## ライセンス
 
 MIT License - 自由に使用・改造・配布可能です
