@@ -3,12 +3,8 @@
   "version": "1.0.0",
   "description": "D&D5e用のDiscordダイスボット",
   "main": "bot.js",
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "scripts": {
-    "start": "node bot.js",
-    "dev": "node bot.js"
+    "start": "node bot.js"
   },
   "keywords": ["discord", "bot", "dice", "dnd", "d&d"],
   "author": "",
