@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node bot.js"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "keywords": ["discord", "bot", "dice", "dnd", "d&d"],
   "author": "",
   "license": "MIT",
