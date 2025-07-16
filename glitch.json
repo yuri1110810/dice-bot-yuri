@@ -1,0 +1,10 @@
+{
+  "install": "npm install",
+  "start": "node bot.js",
+  "watch": {
+    "ignore": [
+      "\\.log$",
+      "\\.sqlite$"
+    ]
+  }
+} 
