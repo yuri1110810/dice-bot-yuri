@@ -4,8 +4,7 @@
   "description": "D&D5e用のDiscordダイスボット",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
-    "dev": "node bot.js"
+    "start": "node bot.js"
   },
   "keywords": [
     "discord",
@@ -18,7 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "dotenv": "^16.3.1",
-    "express": "^4.21.2"
+    "dotenv": "^16.3.1"
   }
 }

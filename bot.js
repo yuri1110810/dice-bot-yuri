@@ -1,5 +1,4 @@
 const { Client, GatewayIntentBits, ActivityType } = require('discord.js');
-const express = require('express');
 require('dotenv').config();
 
 // ボットトークンを環境変数から取得
@@ -353,25 +352,4 @@ client.login(TOKEN).catch(error => {
         console.error('2. MESSAGE CONTENT INTENTをONに設定');
         console.error('3. Save Changesをクリック\n');
     }
-});
-
-// Glitch用のHTTPサーバーを起動（24時間稼働用）
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.get('/', (req, res) => {
-  res.send('🎲 ダイスbot yuri is running!');
-});
-
-app.get('/status', (req, res) => {
-  res.json({ 
-    status: 'online',
-    bot: 'dice-bot-yuri',
-    uptime: process.uptime(),
-    timestamp: new Date().toISOString()
-  });
-});
-
-app.listen(port, () => {
-  console.log(`Keep-alive server running on port ${port}`);
-});
+}); 
